@@ -1,0 +1,26 @@
+body {
+  background-image: url("background_weather.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  font-family: monospace;
+  font-size: 40px;
+  color: red;
+  text-align: center;
+  background: white;
+}
+
+fieldset {
+  padding: 30px;
+  padding-left: 250px;
+  color: red;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+}

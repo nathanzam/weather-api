@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nathans Weather App</title>
+  <meta name="description" content="DESCRIPTION">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+</head>
+
+<body>
+  <header>Welcome to Nathan's Weather Checker!</header>
+  <br>
+  <div class="row">
+    <div class="col-md-6">
+      <fieldset class="zip_code">
+        <input id="zip" class="input-field" type="number" name="zip code" maxlength="5" placeholder="Enter Zipcode">
+        <button class="submit-zip" type="submit" name="zip">Get the Weather!</button>
+      </fieldset>
+      <br>
+      <h2>Or</h2>
+      <fieldset class="by_city">
+        <input id="city" class="input-field" type="text" name="city-search" placeholder="Enter City">
+        <button class="submit-city" type="submit" name="zip">Get the Weather!</button>
+      </fieldset>
+    </div>
+    <div class="col-md-6">
+      <div class="weather_data">
+        <ul>
+          <h1>Weather</h1>
+          <li id="city_name"></li>
+          <li id="low_temp"></li>
+          <li id="high_temp"></li>
+          <li id="weather_des"></li>
+          <li id="current_temp"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <iframe src="https://emulatoronline.com/nes-games/super-mario-bros/" width="900" height="450"></iframe>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js.js"></script>
+</body>
+
+</html>
