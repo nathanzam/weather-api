@@ -17,7 +17,7 @@ $(".submit-zip").on("click", function() {
       $("#city_name").html(data.name);
       $("#low_temp").html("Low Temperature: "+tempConvert(data.main.temp_min)+" &#176F");
       $("#high_temp").html("High Temperature "+tempConvert(data.main.temp_max)+" &#176F");
-      $("#weather_des").html(data.weather[0].description);
+      $("#weather_des").html("Current Conditions "+data.weather[0].description);
       $("#current_temp").html("Current Temperature: "+tempConvert(data.main.temp)+" &#176F");
     })
   }

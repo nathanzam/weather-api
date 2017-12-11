@@ -3,24 +3,27 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  color: red;
 }
 
 header {
   width: 100%;
   font-family: monospace;
   font-size: 40px;
-  color: red;
   text-align: center;
   background: white;
 }
 
 fieldset {
   padding: 30px;
-  padding-left: 250px;
-  color: red;
+  /*padding-left: 250px;*/
 }
 
 ul {
   text-align: center;
   list-style: none;
+}
+
+.results {
+  font-size: 20px;
 }

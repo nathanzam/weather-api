@@ -16,7 +16,7 @@
   <header>Welcome to Nathan's Weather Checker!</header>
   <br>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 col-md-offset-3">
       <fieldset class="zip_code">
         <input id="zip" class="input-field" type="number" name="zip code" maxlength="5" placeholder="Enter Zipcode">
         <button class="submit-zip" type="submit" name="zip">Get the Weather!</button>
@@ -28,10 +28,12 @@
         <button class="submit-city" type="submit" name="zip">Get the Weather!</button>
       </fieldset>
     </div>
-    <div class="col-md-6">
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
       <div class="weather_data">
-        <ul>
-          <h1>Weather</h1>
+        <h1>Weather</h1>
+        <ul class="results">
           <li id="city_name"></li>
           <li id="low_temp"></li>
           <li id="high_temp"></li>
@@ -41,7 +43,7 @@
       </div>
     </div>
   </div>
-  <iframe src="https://emulatoronline.com/nes-games/super-mario-bros/" width="900" height="450"></iframe>
+  <!-- <iframe src="https://emulatoronline.com/nes-games/super-mario-bros/" width="900" height="450"></iframe> -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js.js"></script>
 </body>
